@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema CRUD de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Productos</h1>
+        <nav>
+            <button onclick="window.location.href='add-product.html'" class="btn-primary">Agregar Producto</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="products-container">
+            <h2>Lista de Productos</h2>
+            <div class="products-grid">
+                <!-- Los productos se mostrarán aquí dinámicamente -->
+                <div class="product-card">
+                    <img src="placeholder.jpg" alt="Producto 1" class="product-image">
+                    <h3>Nombre del Producto</h3>
+                    <p>Precio: $100.00</p>
+                    <p>Precio Original: $150.00</p>
+                    <p>Descripción: Descripción del producto</p>
+                    <div class="product-actions">
+                        <button class="btn-edit">Editar</button>
+                        <button class="btn-delete">Eliminar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sistema CRUD de Productos</p>
+    </footer>
+</body>
+</html>
